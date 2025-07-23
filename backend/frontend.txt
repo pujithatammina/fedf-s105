@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.26100.4652]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git branch * main
+fatal: '*' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config set advice.refSyntax false"
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git status on branch main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git log --oneline
+10620c9 (HEAD -> main, origin/main) first commit
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git branch frontend
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git branch frontend
+fatal: a branch named 'frontend' already exists
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git log --oneline
+10620c9 (HEAD -> main, origin/main, frontend) first commit
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git checkout frontend
+Switched to branch 'frontend'
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git branch * frontend
+fatal: '*' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config set advice.refSyntax false"
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git init
+Reinitialized existing Git repository in C:/Users/pujit/OneDrive - K L University/Desktop/fedf-s105/.git/
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git add .
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git commit -m "frontend"
+[frontend 89f4be2] frontend
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 backend/back.txt
+ create mode 100644 frontend/front.txt
+ create mode 100644 git
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git log --oneline
+89f4be2 (HEAD -> frontend) frontend
+10620c9 (origin/main, main) first commit
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>git push -u origin frontend
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 434 bytes | 72.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'frontend' on GitHub by visiting:
+remote:      https://github.com/pujithatammina/fedf-s105/pull/new/frontend
+remote:
+To https://github.com/pujithatammina/fedf-s105.git
+ * [new branch]      frontend -> frontend
+branch 'frontend' set up to track 'origin/frontend'.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>from google.colab import files
+'from' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>import pandas as pd
+'import' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>uploaded=files.upload()
+'uploaded' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>df=pd.read csv('iris.csv')
+'df' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>print(df.head())
+Unable to initialize device PRN
+
+C:\Users\pujit\OneDrive - K L University\Desktop\fedf-s105>
+
+
+
+
+
+
